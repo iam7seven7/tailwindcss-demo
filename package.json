@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shelly Lire <iam7seven7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/tailwindcss-cli build app.css -o styles.css"
+  },
+  "devDependencies": {
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
